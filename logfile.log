@@ -1,0 +1,96 @@
+{"message":"Something failed during startup...","stack":"Error: Something failed during startup...\n    at Object.<anonymous> (F:\\Vidly Api\\index.js:29:7)\n    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n    at Module.load (internal/modules/cjs/loader.js:977:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","level":"error","timestamp":"2020-05-07T13:30:56.215Z"}
+{"message":"some data went wrong...","stack":"Error: some data went wrong...\n    at F:\\Vidly Api\\routers\\genres.js:9:11\n    at Layer.handle [as handle_request] (F:\\Vidly Api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Vidly Api\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (F:\\Vidly Api\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (F:\\Vidly Api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (F:\\Vidly Api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (F:\\Vidly Api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (F:\\Vidly Api\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (F:\\Vidly Api\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (F:\\Vidly Api\\node_modules\\express\\lib\\router\\layer.js:95:5)","level":"error","timestamp":"2020-05-07T13:44:40.285Z"}
+{"level":"info","message":"MongoDb connected successfully....","timestamp":"2020-05-07T14:13:32.027Z"}
+{"level":"info","message":"MongoDb connected successfully....","timestamp":"2020-05-07T14:19:29.735Z"}
+{"level":"info","message":"MongoDb connected successfully....","timestamp":"2020-05-07T14:20:54.374Z"}
+{"level":"info","message":"MongoDb connected successfully....","timestamp":"2020-05-07T14:21:08.510Z"}
+{"message":"Genres validation failed: name: Path `name` (`1234`) is shorter than the minimum allowed length (5).","errors":{"name":{"message":"Path `name` (`1234`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `name` (`1234`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"1234"},"kind":"minlength","path":"name","value":"1234"}},"_message":"Genres validation failed","stack":"ValidationError: Genres validation failed: name: Path `name` (`1234`) is shorter than the minimum allowed length (5).\n    at new ValidationError (F:\\Vidly Api\\node_modules\\mongoose\\lib\\error\\validation.js:31:11)\n    at model.Document.invalidate (F:\\Vidly Api\\node_modules\\mongoose\\lib\\document.js:2563:32)\n    at F:\\Vidly Api\\node_modules\\mongoose\\lib\\document.js:2385:17\n    at F:\\Vidly Api\\node_modules\\mongoose\\lib\\schematype.js:1181:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)","name":"ValidationError","level":"error","timestamp":"2020-05-08T12:20:03.710Z"}
+{"message":"Genres validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","errors":{"name":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","name":"ValidatorError","properties":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},"kind":"maxlength","path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}},"_message":"Genres validation failed","stack":"ValidationError: Genres validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).\n    at new ValidationError (F:\\Vidly Api\\node_modules\\mongoose\\lib\\error\\validation.js:31:11)\n    at model.Document.invalidate (F:\\Vidly Api\\node_modules\\mongoose\\lib\\document.js:2563:32)\n    at F:\\Vidly Api\\node_modules\\mongoose\\lib\\document.js:2385:17\n    at F:\\Vidly Api\\node_modules\\mongoose\\lib\\schematype.js:1181:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)","name":"ValidationError","level":"error","timestamp":"2020-05-08T12:24:56.248Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-08T15:21:27.260Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-08T15:21:56.346Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-08T15:23:43.577Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-08T15:26:40.712Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T05:43:25.464Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T05:43:31.129Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T05:55:37.330Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T05:57:52.810Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:02:48.683Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:06:27.825Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:07:35.600Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:10:17.313Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:11:08.086Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:13:04.474Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:16:18.888Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:19:22.947Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:22:54.367Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:24:16.161Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:24:31.530Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:27:29.196Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:29:42.810Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:33:30.574Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:47:46.454Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:56:40.205Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T06:57:40.624Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:04:31.728Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:04:36.714Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:05:50.454Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:07:28.474Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:13:37.498Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:16:51.710Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:23:22.316Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:26:49.515Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:27:11.853Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:31:29.605Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:32:37.413Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:33:29.841Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:36:03.063Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:41:55.215Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:43:02.101Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:43:56.906Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:44:50.246Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:45:15.372Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:47:45.796Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:47:52.252Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:47:57.342Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:48:23.817Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:51:13.994Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:52:23.926Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:52:49.149Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:56:53.985Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:58:43.574Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T07:58:55.743Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:00:28.286Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:01:42.444Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:01:54.090Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:02:23.878Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:04:45.283Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:05:31.756Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:07:18.253Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:08:40.700Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:09:27.252Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:09:41.434Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:42:49.700Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:45:04.370Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:45:44.051Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:48:58.896Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:49:11.831Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T08:59:40.645Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:02:27.712Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:05:05.755Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:05:43.152Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:10:02.793Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:10:57.149Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:11:58.379Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:15:24.440Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:18:18.466Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:24:28.471Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:24:59.783Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:26:42.885Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:39:34.200Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:41:17.118Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:47:18.440Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:48:47.598Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:49:44.431Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:54:52.502Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:55:20.623Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:55:34.697Z"}
