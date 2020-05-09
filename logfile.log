@@ -94,3 +94,5 @@
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:54:52.502Z"}
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:55:20.623Z"}
 {"code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2020-05-09T09:55:34.697Z"}
+{"message":"date is not defined","stack":"ReferenceError: date is not defined\n    at model.rentalSchema.methods.return (F:\\Vidly Api\\models\\rental.js:54:29)\n    at F:\\Vidly Api\\routers\\returns.js:18:18","level":"error","timestamp":"2020-05-09T13:11:27.502Z"}
+{"message":"date is not defined","stack":"ReferenceError: date is not defined\n    at model.rentalSchema.methods.return (F:\\Vidly Api\\models\\rental.js:54:29)\n    at F:\\Vidly Api\\routers\\returns.js:18:18","level":"error","timestamp":"2020-05-09T13:11:35.512Z"}
